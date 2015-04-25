@@ -1,0 +1,22 @@
+h1 {
+    color: #336666;
+}
+body {
+    text-align: center;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+label {
+    font-family: Impact;
+}
+.inputbox {
+    background-color: yellow;
+}
+#last {
+    font-weight: bold;
+}
+div {
+    border: solid;
+    border-color: #330099;
+    border-width: 5px;
+}
