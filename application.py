@@ -9,13 +9,14 @@ def index_page():
 
     # # Alternately, we could make this a Jinja template in `templates/`
     # # and return that result of rendering this, like:
-    # #
+
 @app.route("/index")
 def home_page():
     return render_template("index.html")
 
 @app.route("/application-form")
 def app_form():
+    
     return render_template("application-form.html")
 
 @app.route("/application", methods=["POST", "GET"])
